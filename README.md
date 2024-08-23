@@ -1,9 +1,12 @@
 Overview and Purpose:
 This project aims to utilize Python and unsupervised learning to determine whether cryptocurrencies are influenced by 24-hour or 7-day price fluctuations. Initially, the original data from a .csv file was employed to determine the optimal k value, which was then visualized using an Elbow Curve, and clusters were plotted on Scatter Plots using K-Means. Subsequently, Principal Component Analysis (PCA) was applied to refine the clusters, followed by identifying the best k value (again visualized on an Elbow Curve) and plotting clusters on Scatter Plots using K-Means for the transformed data. Finally, the visualizations from the first and second steps were compared
+
 Description:
-"The dataset contains information on various cryptocurrencies, including multiple values representing percentage changes in price over different time periods: 24 hours, 7 days, 14 days, 30 days, 60 days, 200 days, and 1 year. The data is stored in a .csv file located in the Resources folder."
- Data Cleaning:
+The dataset contains information on various cryptocurrencies, including multiple values representing percentage changes in price over different time periods
+
+Data Cleaning:
 No rows needed to be dropped from the dataset due to missing or incomplete data. The data was normalized using the StandardScaler module, resulting in a modified DataFrame named 'market_data_scaled.' A Principal Component Analysis (PCA) model was subsequently applied later in the exercise
+
 Data Visualization Techniques:
 Two types of visualizations were generated for this exericse.
 (a) Line graphs:
@@ -14,17 +17,17 @@ Two types of visualizations were generated for this exericse.
 (2) Elbow Curves
 
 
-
-
-
+https://github.com/Lenguyen84/CryptoClustering/blob/main/output/Original_elbow_plot.png
+https://github.com/Lenguyen84/CryptoClustering/blob/main/output/pca_elbow_plot.png
+https://github.com/Lenguyen84/CryptoClustering/blob/main/output/composite_line_plot.png
 
 
 (b) Scatter plots :
+https://github.com/Lenguyen84/CryptoClustering/blob/main/output/PCA_scatter_plot.png
 
+https://github.com/Lenguyen84/CryptoClustering/blob/main/output/market_data_scatter_plot.png
 
-
-
-
+https://github.com/Lenguyen84/CryptoClustering/blob/main/output/composite_clusters_plot.png
 
 Results and Analysis:
 This exercise provides answers to the following questions:
